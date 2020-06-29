@@ -1,0 +1,149 @@
+
+    html{
+        background-color:#dde0e2
+    }
+    #container{
+        background-color:#00457C;
+        width:300px;
+        height:160px;
+        border-radius:10px;
+        padding-top:5px;
+        margin:15px;
+        color:white;
+        font-family: 'Inconsolata', monospace;
+        font-weight:500;
+        position: relative;
+    }
+    #secnum{
+        width:43px;
+    }
+    #chip{
+        width:40px;
+        top:60px;
+        left:30px;
+        position:absolute;
+    }
+    #form{
+        border:2px #0079C1 solid;
+        border-radius:10px;
+        width:300px;
+        height:320px;
+        padding-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bolder;
+        font-size:20px;
+        font-weight:300;
+        background-color:white;
+    }
+    #btn{
+        background-color:white;
+        color:#00457C;
+        border:1.5px #00457C solid; ;
+        font-size:25px;
+        font-weight:100;
+        border-radius:5px;
+    }
+    #btn:hover{
+        background-color:#00457C;
+        color:#0079C1;
+    }
+    #btn:focus{
+        outline: 0;
+        !important
+    }
+    #hh{
+        font-size:20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:300;
+    }
+    #name{
+        top:135px;
+        left:30px;
+        position:absolute;
+    }
+    #crdnum{
+        top: 95px;
+        left:80px;
+        position:absolute;
+    }
+    #expire-month{
+        top:120px;
+        left:30px;
+        position:absolute;
+    }
+    #expire-year{
+        top:120px;
+        left:45px;
+        position:absolute;
+        
+    }
+   #expy{
+       width:53px;
+   }
+    #deb{
+        width:80px;
+    }
+    .para{
+        margin:7;
+    }
+    .card{
+        width:55px
+    }
+    input:valid {
+    color: green;
+    }
+    input:invalid {
+    color: red;
+    }
+    input[type=text] {
+    border: 2px solid #00457C;
+    border-radius: 4px;
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 20px;
+    }
+    input[type=month] {
+    border: 2px solid #00457C;
+    border-radius: 4px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+    }
+    select{
+        border: 2px solid #00457C;
+    border-radius: 4px;
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    }
+    html{
+        color:#0079C1
+    }
+    #debcred{
+        font-size:15px;
+        bottom:37px;
+        right: 15px;
+        
+        position:absolute;
+    }
+    #submit{
+        width: 200px;
+        height:40px;
+        background-color: #015EAD;
+        color: white;
+        font-size: 20px;
+        font-family:arial;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+        !important
+    }
+    #submit:focus{
+        outline:0;
+    }
+    #types{
+        width:50px;
+        height:50px;
+    }
+    

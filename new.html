@@ -1,0 +1,75 @@
+<html>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="new.css" media="screen"/>
+    <header>
+    </header>
+    <body>
+        <center>
+        <div id = 'container'>
+            <h1 id = 'hh'>Your Payment Card</h1>
+            <img id ='chip'src = https://ya-webdesign.com/transparent450_/credit-card-chip-png-12.png a>
+            <div id = 'name'></div>
+            <div id = 'crdnum'></div>
+            <div id = 'expire-month'></div>
+            <div id = 'expire-year'></div>
+            <div id = 'types'></div>
+            <div id = 'debcred'></div>
+        </div>
+        <div id = 'form'>
+            <label><input type ='text' id = 'inpName' placeholder="Card Holder Name" ></label>
+            <p></p>
+            <label for = 'debit/credit'>Debit Or Credit?</label>
+            <select name = 'deb-cred' id = 'deb' onchange='credDeb()' required/>
+            <option value = ''>  </option>
+                <option value ='credit' id = 'credit'>credit</option>
+                <option value ='debit' id = 'debit'>debit</option>
+            </select>
+            <p></p>
+            <select name = 'crdType' id = 'crdType' onchange='cardtype()' required/>
+            <option value = 'Card Type'>Card Type</option>
+                <option value = 'Visa' id = 'Visa'>Visa</option>
+                <option value = 'Mastercard' id = 'Mastercard'>Mastercard</option>
+                <option value = 'Amex' id = 'Amex'>Amex</option>
+            </select>
+            <p class = 'para'></p>
+            <p class = 'para'>Card Number:</p>
+            <label>
+                <input type = 'text' class ='card' id ='cardnumber1' placeholder="####" maxlength="4"  id="secnum" +
+                + pattern="\d{4}" onkeyup="cardnum()" required/>
+                <input type = 'text' class ='card' id ='cardnumber2' placeholder="####" maxlength="4"  id="secnum" +
+                + pattern="\d{4}" onkeyup="cardnum()" required/>
+                <input type = 'text' class ='card' id ='cardnumber3' placeholder="####" maxlength="4"  id="secnum" +
+                + pattern="\d{4}" onkeyup="cardnum()" required/>
+                <input type = 'text' class ='card' id ='cardnumber4' placeholder="####" maxlength="4"  id="secnum" +
+                + pattern="\d{4}" onkeyup="cardnum()" required/>
+            </label>
+            </label>
+            <p></p>
+            Expiry Date : 
+             <select id = 'exp' onchange='month()'required/>
+             <option value = 'month'>Month</option>
+             <option value = '01'>01</option>
+             <option value = '02'>02</option>
+             <option value = '03'>03</option>
+             <option value = '04'>04</option>
+             <option value = '05'>05</option>
+             <option value = '06'>06</option>
+             <option value = '07'>07</option>
+             <option value = '08'>08</option>
+             <option value = '09'>09</option>
+             <option value = '10'>10</option>
+             <option value = '11'>11</option>
+             <option value = '12'>12</option>
+            </select>
+            <input type = 'text' id = 'expy' maxlength="4" pattern="\d{4}" placeholder="Year">
+            <p></p>
+           <!-- <label><input type="text"  name="sec" maxlength="3"  id="secnum" +
+                + pattern="\d{3}" required/></label> -->
+                <p></p>
+            <input type="submit" value = 'Pay Now' id = 'submit'>
+
+        </div>
+        </center>
+        <script type="text/javascript" src="new.js"></script>
+</html>
